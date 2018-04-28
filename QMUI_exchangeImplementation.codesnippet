@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pa</string>
+	<string>exchangeImplementation_QMUI</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>+ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        ExchangeImplementations(&lt;#class#&gt;, @selector(&lt;#origin selecotr#&gt;), @selector(&lt;#new selector#&gt;));
+    });
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9F96E543-5450-452B-9CA8-8BCCD8D841ED</string>
+	<string>444CF4FA-4BD2-43F5-8278-7234EA8E5FBF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Assign</string>
+	<string>exchange method implementations in +load with QMUI</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
