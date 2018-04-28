@@ -2,22 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,strong)&lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>static NSString *rid = &lt;#rid#&gt;;
+&lt;#Class#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:rid];
+if (cell == nil) {
+    cell = [[&lt;#Class#&gt; alloc] initWithStyle:UITableViewCellStyleDefault      reuseIdentifier:rid];
+}
+return cell;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ACD41F4D-1DF0-4635-A903-E356A1D55482</string>
+	<string>725629D9-8E49-4F74-899B-1D0F9C9D0BAB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>reusecell</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong</string>
+	<string>reusecell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

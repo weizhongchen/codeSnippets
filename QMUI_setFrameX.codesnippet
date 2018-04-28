@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>setFrameX</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,strong)&lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>&lt;#view#&gt;.frame = CGRectSetX(&lt;#view#&gt;.frame, &lt;#x#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ACD41F4D-1DF0-4635-A903-E356A1D55482</string>
+	<string>5BEF295B-A1FA-4AEB-8148-C9E14BD56B43</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong</string>
+	<string>set UIView frame X with QMUI CGRectSetX</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

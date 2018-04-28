@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+  <string>fnv_handleEvent</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,strong)&lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>- (void)handle&lt;#ControlName#&gt;Event:(id)sender {
+    &lt;#code#&gt;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ACD41F4D-1DF0-4635-A903-E356A1D55482</string>
+	<string>53A49D67-CFF3-4449-AE38-B50E4F44529F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong</string>
+	<string>创建UIControl的事件回调</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

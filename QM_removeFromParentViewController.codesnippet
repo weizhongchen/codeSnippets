@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>removeFromParentViewController</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,strong)&lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>[&lt;#childViewController#&gt; willMoveToParentViewController:nil];
+        [&lt;#childViewController#&gt;.view removeFromSuperview];
+        [&lt;#childViewController removeFromParentViewController];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ACD41F4D-1DF0-4635-A903-E356A1D55482</string>
+	<string>04996CD3-4E1F-49A9-A3CC-C3E42D5673BB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>UIViewController removeFromParentViewController</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strong</string>
+	<string>removeFromParentViewController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
